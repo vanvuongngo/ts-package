@@ -1,5 +1,5 @@
 {
-  "name": "ts-package",
+  "name": "@vanvuongngo/ts-package",
   "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/indes.d.ts",
