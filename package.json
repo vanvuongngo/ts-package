@@ -1,0 +1,16 @@
+{
+  "name": "ts-package",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/indes.d.ts",
+  "repository": "git@github.com:vanvuongngo/ts-package.git",
+  "author": "Van Vuong Ngo <20791239+vanvuongngo@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": ["lib/**/*"]
+}
