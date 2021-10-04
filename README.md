@@ -98,7 +98,7 @@ adapt the package.json
 
 ```json
   "main": "lib/index.js",
-  "types": "lib/indes.d.ts",
+  "types": "lib/index.d.ts",
 ```
 
 ---
