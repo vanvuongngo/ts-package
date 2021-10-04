@@ -1,5 +1,7 @@
 # ts-package
-Tutorial to create your own typescripted package
+Tutorial to create your own typescripted package.
+Original tutorial see https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c
+
 
 ## Requirements
 
