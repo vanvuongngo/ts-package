@@ -1,6 +1,6 @@
 {
   "name": "@vanvuongngo/ts-package",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "git@github.com:vanvuongngo/ts-package.git",
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "deploy": "yarn publish --access public"
+    "deploy": "npm login; npm publish --access public"
   },
   "files": [
     "lib/**/*"
