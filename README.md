@@ -1,5 +1,5 @@
 # ts-package
-Typescript package as a template
+Template to create a typescripted package
 
 ## Requirements
 
@@ -24,7 +24,7 @@ echo "node_modules" >> .gitignore
 yarn add -D typescript
 ```
 
-## add a TS configuration file tsconfig.json
+## Add a TS configuration file tsconfig.json
 
 ```json
 {
@@ -46,7 +46,7 @@ yarn add -D typescript
 mkdir src
 ```
 
-## add a build script into package.json
+## Add a build script into package.json
 
 ```json
   "scripts": {
@@ -54,7 +54,7 @@ mkdir src
   }
 ```
 
-## now run build command
+## Now run build command
 
 The lib folder contains your compiled code and typescript definitions.
 
@@ -62,7 +62,7 @@ The lib folder contains your compiled code and typescript definitions.
 yarn build
 ```
 
-## git ignore the lib directory
+## Git ignore the lib directory
 
 add the lib directory into .gitignore file. The slash means the lib directory in the root directory.
 
@@ -70,7 +70,7 @@ add the lib directory into .gitignore file. The slash means the lib directory in
 /lib
 ```
 
-## whitelist lib directory for a published package
+## Whitelist lib directory for a published package
 
 add to package.json so no other files will include into the published package
 
@@ -85,7 +85,7 @@ add to package.json so no other files will include into the published package
   "types": "lib/indes.d.ts",
 ```
 
-## usage of this ts library
+## Create a link locally to develop a TS library
 
 create a npm link call in ts-package root directory
 
@@ -112,3 +112,8 @@ import { Greeter } from 'ts-package';
 
 console.log(Greeter('World'));
 ```
+
+## add deploy script to publish package
+
+````
+"deploy": "npm publish --access public

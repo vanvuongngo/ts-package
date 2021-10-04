@@ -1,6 +1,6 @@
 {
   "name": "@vanvuongngo/ts-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "types": "lib/indes.d.ts",
   "repository": "git@github.com:vanvuongngo/ts-package.git",
@@ -10,7 +10,8 @@
     "typescript": "^4.4.3"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "deploy": "npm publish --access public"
   },
   "files": ["lib/**/*"]
 }
