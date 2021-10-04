@@ -85,7 +85,7 @@ add to package.json so no other files will include into the published package
   "types": "lib/indes.d.ts",
 ```
 
-## Create a link locally to develop a TS library
+## Create a locally link to develop the TS library
 
 create a npm link call in ts-package root directory
 
@@ -113,7 +113,28 @@ import { Greeter } from 'ts-package';
 console.log(Greeter('World'));
 ```
 
-## add deploy script to publish package
+## Add deploy script to publish package
 
-````
-"deploy": "npm publish --access public
+Yarn
+```
+"deploy": "yarn publish --access public"
+```
+
+NPM
+```
+"deploy": "npm publish --access public"
+```
+
+## Publish a package
+
+Yarn
+```
+yarn login
+yarn publish
+```
+
+NPM
+```
+npm adduser
+npm run publish
+```
