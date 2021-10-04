@@ -4,7 +4,8 @@ Template to create a typescripted package
 ## Requirements
 
 - nodejs
-- npm or yarn
+- npm
+- yarn (optional and as default here; if there are differences in the commands between yarn and npm then it will be descibe separatly)
 
 ## Init your package
 
@@ -62,6 +63,12 @@ The lib folder contains your compiled code and typescript definitions.
 yarn build
 ```
 
+or
+
+```
+npm run build
+```
+
 ## Git ignore the lib directory
 
 add the lib directory into .gitignore file. The slash means the lib directory in the root directory.
@@ -87,10 +94,10 @@ add to package.json so no other files will include into the published package
 
 ## Create a locally link to develop the TS library
 
-create a npm link call in ts-package root directory
+Use link to link this package that you’d like to test into your current project.
 
 ```
-npm link
+yarn link
 ```
 
 create a new project directory and initialize it
@@ -102,7 +109,7 @@ yarn init -y
 add local ts-package as dependency to develop without need of publishing
 
 ```
-npm link ts-package
+yarn link ts-package
 ```
 
 create an example script
@@ -115,25 +122,19 @@ console.log(Greeter('World'));
 
 ## Add deploy script to publish package
 
-Yarn
 ```
 "deploy": "yarn publish --access public"
 ```
 
-NPM
-```
-"deploy": "npm publish --access public"
-```
-
 ## Publish a package
 
-Yarn
 ```
 yarn login
 yarn publish
 ```
 
-NPM
+or
+
 ```
 npm adduser
 npm run publish
