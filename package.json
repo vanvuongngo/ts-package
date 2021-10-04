@@ -1,6 +1,6 @@
 {
   "name": "@vanvuongngo/ts-package",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/index.js",
   "types": "lib/indes.d.ts",
   "repository": "git@github.com:vanvuongngo/ts-package.git",
