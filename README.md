@@ -120,6 +120,7 @@ or
 
 ```
 npm adduser
+npm version patch
 npm run publish
 ```
 
