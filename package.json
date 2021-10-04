@@ -2,7 +2,7 @@
   "name": "@vanvuongngo/ts-package",
   "version": "1.0.4",
   "main": "lib/index.js",
-  "types": "lib/indes.d.ts",
+  "types": "lib/index.d.ts",
   "repository": "git@github.com:vanvuongngo/ts-package.git",
   "author": "Van Vuong Ngo <20791239+vanvuongngo@users.noreply.github.com>",
   "license": "MIT",
